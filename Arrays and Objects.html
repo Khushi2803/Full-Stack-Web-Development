@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Arrays and Objects</h1>
+    <script>
+        var favoriteBooks = [
+            "The 7 Habits of Highly Effective People",
+            "How to Win Friends & Influence People",
+            "Awaken the Giant Within",
+            "The Power of Positive Thinking",
+        ];
+
+        function displayBookTitles(books) {
+            for (var i = 0; i < books.length; i++) {
+                document.write("<br>", i + 1, ".  ", books[i], "<br>");
+            }
+        }
+
+        displayBookTitles(favoriteBooks);
+    </script>
+</body>
+
+</html>
